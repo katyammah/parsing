@@ -132,7 +132,7 @@ def do_schedule():
     schedule.every().wednesday.at("23:00").do(end_of_day)
     schedule.every().thursday.at("23:00").do(end_of_day)
     schedule.every().saturday.at("23:00").do(end_of_day)
-#    schedule.every().monday.at("15:07").do(end_of_day)     # for checking code (change the day and time)
+#    schedule.every().monday.at("15:07").do(end_of_day)  # for checking code (change the day and time)
                                                              #    and work of database
 
     while True:
